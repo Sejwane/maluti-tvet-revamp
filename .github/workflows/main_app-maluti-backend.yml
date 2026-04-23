@@ -1,6 +1,8 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
+
+
 name: Build and deploy JAR app to Azure Web App - app-maluti-backend
 
 on:
@@ -60,4 +62,15 @@ jobs:
           app-name: 'app-maluti-backend'
           slot-name: 'Production'
           package: '*.jar'
-          
+          # ... earlier steps ...
+
+      - name: Build with Maven
+        run: mvn clean install
+        working-directory: backend/backend 
+
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v4
+        with:
+          name: java-app
+          # Update the path below to look inside your subfolder
+          path: 'backend/backend/target/*.jar' 
