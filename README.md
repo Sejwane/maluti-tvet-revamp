@@ -7,7 +7,7 @@ Software Design Specification and MVP for the Maluti TVET College website redesi
 
 ## 🚀 Live Deployments
 * **Frontend:** [https://wonderful-hill-03bf14800.7.azurestaticapps.net](https://wonderful-hill-03bf14800.7.azurestaticapps.net)
-* **Backend API:** [https://app-maluti-backend.azurewebsites.net/api/campuses](app-maluti-backend-befqaugth3h4b5f6.southafricanorth-01.azurewebsites.net)
+* **Backend API:** (app-maluti-backend-befqaugth3h4b5f6.southafricanorth-01.azurewebsites.net)
 *  **Running the API link should give you a whitelabel error which shows a positive response while running the frontend should give you a static maluti TVET page
   (https://app-maluti-backend-befqaugth3h4b5f6.southafricanorth-01.azurewebsites.net)   
 
