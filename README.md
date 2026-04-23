@@ -25,5 +25,4 @@ Software Design Specification and MVP for the Maluti TVET College website redesi
 
 ## 💻 Local Setup
 1. Clone the repo: `git clone https://github.com/Sejwane/maluti-tvet-revamp.git`
-2. Run Backend: `cd backend/backend && mvn spring-boot:run`
-3. Run Frontend: `cd frontend && npm install && npm start`
+
